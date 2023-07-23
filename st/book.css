@@ -1,0 +1,260 @@
+* {  
+    padding: 0;  
+    margin: 0;  
+    box-sizing: border-box;  
+    
+    
+  }
+  
+  
+  html {
+  height: 100%;
+  min-height:800px;
+  }
+  body {
+  background-size:cover;
+  background-repeat:no-repeat;
+  text-align: center;
+  }
+  
+  h1{
+  font-weight:400;
+  padding-top:0;
+  margin-top:0;
+  font-family: 'Roboto Slab', serif;
+  }
+  
+
+  .center{
+    display: flex;
+    justify-content: center;
+  }
+
+  .button {
+    width: 250px;
+  background:#5946B2;
+  border-radius: 5px;
+  padding: 15px 25px;
+  margin: auto;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  box-shadow:0px 2px 5px rgb(0,0,0,0.5);
+  margin-bottom: 50px;
+  }
+  .b1{
+    font-size: 18px;
+    border: none;
+
+  }
+.adminbtn{
+    background-color: #5946B2; /* Green */
+    border: 0;
+    border-radius: 8px;
+    color: white;
+}
+
+
+  .disabled {
+  display:none;
+  }
+  
+  section {
+  padding: 50px ;
+ width: 70%;
+  margin: 30px auto;
+  background:white;
+  background:rgba(255,255,255,0.9);
+  backdrop-filter:blur(10px);
+  box-shadow:0px 2px 10px rgba(0,0,0,0.3);
+  border-radius:5px;
+  transition:transform 0.2s ease-in-out;
+  }
+  
+  
+  input {
+  width: 100%;
+  margin: 7px 0px;
+  padding: 12px 25px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 1em;
+  font-family:inherit;
+  background:white;
+  float: left;
+  }
+
+.sel{
+    width: 15%;
+    margin: 7px 0px;
+    padding: 12px 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 1em;
+    font-family:inherit;
+    background:white;
+    float: left;
+  }
+
+
+  #age{
+    width: 15%;
+    margin: 7px 0px;
+    padding: 12px 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 1em;
+    font-family:inherit;
+    background:white;
+    float: left;
+  }
+
+ #con {
+    width: 100%;
+    margin: 7px 0px;
+    padding: 12px 25px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 1em;
+    font-family:inherit;
+    background:white;
+    float: left;
+    }
+  
+
+  p{
+  text-align:justify;
+  margin-top:0;
+  }
+
+table{
+
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+  margin-top: 25px;
+
+  }
+
+  th,td{
+    border: 1px solid;
+    padding: 20px;
+
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .bus-container {
+    margin: 20px 0;
+  }
+  
+  .bus-container select {
+    background-color: #fff;
+   border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+    padding: 5px 15px 5px 15px;
+    float:left;
+
+ 
+  }
+  
+  .containers {
+    perspective: 1000px;
+    margin-bottom: 30px;
+    margin-right:50px;
+  }
+  
+  .seat,.seatsl {
+    background-color: #B9BDB7;
+    height: 26px;
+    width: 26px;
+    margin: 3px;
+    font-size: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 2px;
+  }
+  
+  .seatsl {
+    height: 40px;
+    width: 26px;
+    margin: 3px;
+  
+  }
+  
+  .seat.selected {
+    background-color: #5946B2;
+  }
+  
+  .seat.sold {
+    background-color: 		#808080	;
+  }
+  
+  .seat:nth-of-type(2) {
+    margin-right: 18px;
+  }
+  
+  .seat:nth-last-of-type(2) {
+    margin-left: 18px;
+  }
+  
+  .seat:hover,.seatsl:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  
+  .showcase .seat:not(.sold):hover {
+    cursor: default;
+    transform: scale(1);
+  }
+  
+  .showcase {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width:600px;
+  }
+  
+  .showcase li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+  }
+  .showcase li small {
+    margin-left: 2px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  p.text{
+      margin: 5px 0;
+  }
+  
+  p.text span{
+      color: rgb(158, 248, 158);
+  }
